@@ -11,8 +11,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-color: var(--background-color);
-  padding-inline-start: 10px;
-  padding-inline-end: 10px;
+  /* padding-inline-start: 10px;
+  padding-inline-end: 10px; */
 }
 
 .rec__element {
