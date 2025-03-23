@@ -2,9 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  /* display: grid; */
   width: 100%;
-  /* grid-template-columns: 1fr; */
   background-image: var(--background-image);
   background-position: center;
   background-attachment: fixed;
@@ -249,8 +247,8 @@ a:focus {
 
 @media (width >= 768px) {
   .page {
-    padding-inline-start: 20px;
-    padding-inline-end: 20px;
+    /* padding-inline-start: 20px;
+    padding-inline-end: 20px; */
   }
 
   .header {
@@ -442,8 +440,8 @@ a:focus {
 
 @media (width >= 1024px) {
   .page {
-    padding-inline-start: 20px;
-    padding-inline-end: 20px;
+    /* padding-inline-start: 20px;
+    padding-inline-end: 20px; */
   }
 
   .header {
