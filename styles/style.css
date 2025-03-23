@@ -10,6 +10,7 @@
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: var(--background-color);
   padding-inline-start: 10px;
   padding-inline-end: 10px;
 }
@@ -330,7 +331,7 @@ a:focus {
     margin-block-start: 0;
     padding-block-start: 30px;
   }
-  
+
   .article__medium__card .article__description {
     margin-block-end: 20px;
   }
