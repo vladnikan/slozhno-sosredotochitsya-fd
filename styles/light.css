@@ -22,6 +22,22 @@
   */
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-title-color: #FFC2E6;
+    --accent-color: #FF8DCB;
+    --accent-description-color: #353430;
+    --section-description-color: #353430;
+    --border-color: #353430;
+    --main-font: 'IBM Plex mono';
+    --background-image: url("../images/cover-image-light.png");
+    --display-content: none;
+    --underline-color: #353430;
+    --hover-border-color: rgba(50, 49, 45, 0.4);
+    --background-color: white;
+  }
+}
+
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
