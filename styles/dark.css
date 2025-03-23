@@ -5,6 +5,17 @@
 */
 
 :root.theme-dark {
+  --accent-title-color: #DB00FF;
+  --accent-color: #FF0070;
+  --accent-description-color: #000028;
+  --section-description-color: #F1B2CE;
+  --border-color: #FF0070;
+  --main-font: 'IBM Plex mono';
+  --background-image: url("../images/cover-image-dark.png");
+  --display-content: flex;
+  --underline-color: #F1B2CE;
+  --hover-border-color: rgba(255, 0, 112, 0.4);
+  --links-border-color: #F1B2CE;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
