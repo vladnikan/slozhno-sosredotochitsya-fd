@@ -13,6 +13,11 @@
   padding-inline-end: 10px; */
 }
 
+.page__content {
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+}
+
 .rec__element {
   color: var(--accent-color);
   font-family: "IBM Plex mono";
@@ -251,6 +256,11 @@ a:focus {
     padding-inline-end: 20px; */
   }
 
+  .page__content {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+  }
+
   .header {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -442,6 +452,11 @@ a:focus {
   .page {
     /* padding-inline-start: 20px;
     padding-inline-end: 20px; */
+  }
+
+  .page__content {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
   }
 
   .header {
