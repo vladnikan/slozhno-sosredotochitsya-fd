@@ -16,7 +16,7 @@
 
 .rec__element {
   color: var(--accent-color);
-  font-family: 'IBM Plex mono';
+  font-family: "IBM Plex mono";
   font-size: 18px;
   position: absolute;
   top: 12px;
@@ -26,7 +26,7 @@
 }
 
 .rec__element::after {
-  content: '';
+  content: "";
   width: 12px;
   height: 12px;
   background-color: var(--accent-color);
@@ -48,7 +48,7 @@
 } */
 
 .header::before {
-  content: '';
+  content: "";
   position: absolute;
   right: 12px;
   top: 10px;
@@ -59,7 +59,7 @@
 }
 
 .header::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 10px;
   left: 10px;
@@ -89,6 +89,11 @@
 .theme-input:checked + .header__theme-menu-button {
   outline: 1px solid var(--border-color);
   padding: 0 15px 4px;
+}
+
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--hover-border-color);
+  padding: 0 5px 5px;
 }
 
 a {
@@ -222,7 +227,7 @@ a:focus {
 }
 
 .footer::before {
-  content: '';
+  content: "";
   position: absolute;
   right: 5px;
   top: 10px;
@@ -233,7 +238,7 @@ a:focus {
 }
 
 .footer::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 10px;
   left: 5px;
@@ -268,7 +273,7 @@ a:focus {
     right: 20px;
     top: 20px;
   }
-  
+
   .header::after {
     bottom: 10px;
     left: 10px;
@@ -317,7 +322,9 @@ a:focus {
     margin-inline-start: 10px;
   }
 
-  .main__section > .main__article__card:nth-of-type(1)> .article__question__title {
+  .main__section
+    > .main__article__card:nth-of-type(1)
+    > .article__question__title {
     max-width: 475px;
   }
 
@@ -339,7 +346,6 @@ a:focus {
   .article__medium__card .article__content {
     margin-block-start: 0;
     margin-inline-start: 0;
-    
   }
 
   .article__medium__card .article__description {
@@ -355,7 +361,9 @@ a:focus {
     margin: 0;
   }
 
-  .main__section > .main__article__card:nth-of-type(3) > .article__question__title {
+  .main__section
+    > .main__article__card:nth-of-type(3)
+    > .article__question__title {
     margin-block-start: 10px;
     min-width: 236px;
   }
@@ -430,7 +438,7 @@ a:focus {
     right: 0px;
     top: -10px;
   }
-  
+
   .footer::after {
     bottom: 25px;
     left: 0;
@@ -451,7 +459,7 @@ a:focus {
   }
 
   .header::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 130px;
     left: 20px;
@@ -482,7 +490,6 @@ a:focus {
   }
 
   .article__title {
-
   }
 
   .article__medium__card .article__question__title {
@@ -543,10 +550,9 @@ a:focus {
     right: -260px;
     top: 25px;
   }
-  
+
   .footer::after {
     bottom: 15px;
     left: -270px;
   }
 }
-
