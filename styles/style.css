@@ -492,6 +492,10 @@ a:focus {
     min-inline-size: 650px;
   }
 
+  .article__title {
+    max-inline-size: 650px;
+  }
+
   .article__medium__card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

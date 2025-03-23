@@ -3,17 +3,28 @@
   и их переопределение под различные устройства
 */
 :root {
-  --accent-title-color: #DB00FF;
+  /* --accent-title-color: #DB00FF;
   --accent-color: #FF0070;
   --accent-description-color: #000028;
   --section-description-color: #F1B2CE;
   --border-color: #FF0070;
-  --main-font: 'IBM Plex mono';
   --background-image: url("../images/cover-image-dark.png");
   --display-content: flex;
   --underline-color: #F1B2CE;
-  --main-font-size: 18px;
   --hover-border-color: rgba(255, 0, 112, 0.4);
   --links-border-color: #F1B2CE;
-  --background-color: #000028;
+  --background-color: #000028; */
+  --accent-title-color: #FFC2E6;
+  --accent-color: #FF8DCB;
+  --accent-description-color: #353430;
+  --section-description-color: #353430;
+  --border-color: #353430;
+  --main-font: 'IBM Plex mono';
+  --background-image: url("../images/cover-image-light.png");
+  --display-content: none;
+  --underline-color: #353430;
+  --hover-border-color: rgba(50, 49, 45, 0.4);
+  --background-color: white;
+  --main-font: 'IBM Plex mono';
+  --main-font-size: 18px;
 }
