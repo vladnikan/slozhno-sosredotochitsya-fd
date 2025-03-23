@@ -18,7 +18,7 @@
 .rec__element {
   color: var(--accent-color);
   font-family: "IBM Plex mono";
-  font-size: 18px;
+  font-size: var(--main-font-size);
   position: absolute;
   top: 12px;
   right: 20px;
@@ -85,7 +85,7 @@
 
 .theme-input:checked + .header__theme-menu-button {
   outline: 1px solid var(--border-color);
-  padding: 0 15px 4px;
+  padding: 0 10px 4px;
 }
 
 .header__theme-menu-button:hover {
@@ -121,7 +121,7 @@ a:focus {
   display: flex;
   justify-content: end;
   margin-block-start: 70px;
-  margin-inline-end: 10px;
+  /* margin-inline-end: 10px; */
   line-height: 33px;
 }
 
@@ -129,7 +129,7 @@ a:focus {
   background-color: inherit;
   border: none;
   font-family: var(--main-font), sans-serif;
-  font-size: 18px;
+  font-size: var(--main-font-size);
   color: var(--accent-color);
   text-transform: lowercase;
   cursor: pointer;
@@ -153,6 +153,7 @@ a:focus {
 }
 
 .main__description {
+  font-size: var(--main-font-size);
   font-weight: bold;
   line-height: 23.4px;
   letter-spacing: 0%;
@@ -161,10 +162,12 @@ a:focus {
 
 .article__title {
   font-weight: bold;
+  font-size: var(--main-font-size);
 }
 
 .article__pre-title {
   margin-block-end: 20px;
+  font-size: var(--main-font-size);
 }
 
 .article__title:not(:last-child) {
@@ -175,7 +178,7 @@ a:focus {
   color: var(--section-description-color);
   font-family: var(--main-font);
   line-height: 23.4px;
-  font-size: 18px;
+  font-size: var(--main-font-size);
   margin-block-end: 20px;
 }
 
@@ -183,17 +186,23 @@ a:focus {
   color: var(--accent-color);
   font-family: var(--main-font);
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-block-end: 20px;
+  font-size: var(--main-font-size);
 }
 
 .article__advise__title {
   font-weight: normal;
   margin-block-end: 10px;
+  font-size: var(--main-font-size);
 }
 
 .main__card__title {
   margin-block-start: 50px;
-  margin-block-end: 10px;
+  margin-block-end: 15px;
+}
+
+.main__card__title__text {
+  font-size: var(--main-font-size);
 }
 
 .main__pictures {
@@ -219,7 +228,7 @@ a:focus {
 .footer::before {
   content: "";
   position: absolute;
-  right: 5px;
+  right: 3px;
   top: 10px;
   width: 25px;
   height: 25px;
@@ -231,7 +240,7 @@ a:focus {
   content: "";
   position: absolute;
   bottom: 10px;
-  left: 5px;
+  left: 3px;
   width: 25px;
   height: 25px;
   border-left: 1px solid var(--border-color);
