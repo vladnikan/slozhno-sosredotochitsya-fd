@@ -22,7 +22,7 @@
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
-            <!-- <button
+            <button
               class="header__theme-menu-button header__theme-menu-button_type_light"
             >
               День
@@ -41,52 +41,11 @@
               class="header__theme-menu-button header__theme-menu-button_type_dark"
             >
               Неон
-            </button> -->
-            <input
-              type="radio"
-              id="theme-light"
-              name="theme"
-              class="theme-input"
-            />
-            <label
-              for="theme-light"
-              class="header__theme-menu-button header__theme-menu-button_type_light"
-            >
-              День
-            </label>
-          </li>
-          <li class="header__theme-menu-item">
-            <input
-              type="radio"
-              id="theme-auto"
-              name="theme"
-              class="theme-input"
-              checked
-            />
-            <label
-              for="theme-auto"
-              class="header__theme-menu-button header__theme-menu-button_type_auto"
-            >
-              Авто
-            </label>
-          </li>
-          <li class="header__theme-menu-item">
-            <input
-              type="radio"
-              id="theme-dark"
-              name="theme"
-              class="theme-input"
-            />
-            <label
-              for="theme-dark"
-              class="header__theme-menu-button header__theme-menu-button_type_dark"
-            >
-              Неон
-            </label>
+            </button>
           </li>
         </ul>
       </nav>
-      <section class="main__title__section">
+      <div class="main__title__section">
         <div class="main__title__text">
           <h1 class="main__title">no focus</h1>
           <p class="main__description title-decor">
@@ -94,29 +53,29 @@
             сложно сконцентрироваться, особенно когда очень надо
           </p>
         </div>
-      </section>
+      </div>
     </header>
     <main>
       <section class="main__section">
-        <article class="main__article__card">
-          <h3 class="article__question__title">
+        <section class="main__article__card">
+          <h2 class="article__question__title">
             Почему сосредоточиться так сложно
-          </h3>
-          <div class="article__content">
+          </h2>
+          <article class="article__content">
             <h3 class="article__title title-decor">Многозадачность</h3>
             <p class="article__description">
               Особенно сложно сосредоточиться, когда задач много и все они —
               важные. Где же легендарная многозадачность, когда она так нужна
               вам (и всем нанимающим менеджерам этого мира)? А дело в том, что
               её просто не существует. Исследователи
-              <a class="accent__word" href="#">выяснили</a>, что мозгу тяжело
+              <a class="accent__word" href="https://dana.org/article/multicosts-of-multitasking/">выяснили</a>, что мозгу тяжело
               концентрироваться даже на двух делах одновременно. А когда в поле
               внимания попадает несколько важных задач, организм паникует и
               выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы
               работаем невнимательно: ошибаемся и быстро устаём.
             </p>
-          </div>
-          <div class="article__content">
+          </article>
+          <article class="article__content">
             <h3 class="article__title title-decor">Дофамин</h3>
             <p class="article__description">
               С гормонами стресса всё понятно, но дальше — ещё интереснее. В
@@ -128,13 +87,13 @@
               чувствуем удовольствие. Получается замкнутый круг: чем больше
               отвлекаешься, тем больше удовольствия получаешь.
             </p>
-          </div>
-        </article>
-        <article class="main__article__card article__medium__card">
-          <h3 class="article__question__title">
+          </article>
+        </section>
+        <section class="main__article__card article__medium__card">
+          <h2 class="article__question__title">
             Что снижает концентрацию внимания?
-          </h3>
-          <div class="article__content">
+          </h2>
+          <article="article__content">
             <h3 class="article__title title-decor">Многозадачность</h3>
             <p class="article__description">
               Как концентрация может снижаться из-за… концентрации? Любая
@@ -144,8 +103,8 @@
               собранными всё время — невозможно. Концентрация — мышца, и она
               может не выдержать, если не давать ей отдохнуть.
             </p>
-          </div>
-          <div class="article__content">
+          </article=>
+          <article class="article__content">
             <h3 class="article__title title-decor">Еда</h3>
             <p class="article__description">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -155,8 +114,8 @@
               углеводов» заканчивается, мы чувствуем усталость и сонливость. И
               хотим ещё больше быстрых углеводов.
             </p>
-          </div>
-          <div class="article__content">
+          </article>
+          <article class="article__content">
             <h3 class="article__title title-decor">Гаджеты</h3>
             <p class="article__description">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -167,21 +126,21 @@
               Вот и получается, что чем больше времени мы проводим в гаджетах,
               тем больше времени затем нужно, чтобы вернуться к работе.
             </p>
-          </div>
-        </article>
-        <article class="main__article__card">
-          <h3 class="article__question__title">
+          </article>
+        </section>
+        <section class="main__article__card">
+          <h2 class="article__question__title">
             Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
             секунд)
-          </h3>
-          <div class="article__content">
+          </h2>
+          <article class="article__content">
             <h3 class="article__pre-title title-decor">
               <!-- article__title  -->
               5 простых (на самом деле не очень) советов
             </h3>
-            <h3 class="article__advise__title title-decor">
+            <h4 class="article__advise__title title-decor">
               Представьте небо и облака
-            </h3>
+            </h4>
             <p class="article__description">
               Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
               успокоиться. Ведь часто именно тревожные мысли о сложных задачах
@@ -192,8 +151,8 @@
               вернуться в настоящий момент, а не волноваться о потенциальных
               проблемах из будущего.
             </p>
-          </div>
-          <div class="article__content">
+          </article>
+          <article class="article__content">
             <h3 class="article__advise__title title-decor">Включите музыку</h3>
             <p class="article__description">
               Но не любую, и не любимую. Любимая может быть связана с сильными
@@ -201,20 +160,20 @@
               Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
               попробовать включить плейлист с «белым шумом» или нейромузыкой.
             </p>
-          </div>
-          <div class="article__content">
+          </article>
+          <article class="article__content">
             <h3 class="article__advise__title title-decor">Прогуляйтесь</h3>
             <p class="article__description">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
-              <a class="accent__word" href="#">показал</a>, что созерцание
+              <a class="accent__word" href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328">показал</a>, что созерцание
               природы повышает концентрацию, в то время как после просмотра
               городских пейзажей она наоборот понижается. Можно совместить
               прогулку с физическими упражнениями или бегом — так в мозг
               поступит ещё больше кислорода и он будет лучше работать. Но и
               простая двадцатиминутная прогулка — тоже отличный вариант.
             </p>
-          </div>
-          <div class="article__content">
+          </article>
+          <article class="article__content">
             <h3 class="article__advise__title title-decor">Хорошо ешьте</h3>
             <p class="article__description">
               Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
@@ -222,8 +181,8 @@
               высоким содержанием клетчатки: овощи, ягоды, бобовые (нут,
               чечевица, фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
             </p>
-          </div>
-          <div class="article__content">
+          </article>
+          <article class="article__content">
             <h3 class="article__advise__title title-decor">Читайте</h3>
             <p class="article__description">
               Настоящие бумажные книги. Это правда помогает с концентрацией:
@@ -231,8 +190,8 @@
               даже секунд. А вот интересная книга способна затянуть и на
               несколько часов и круто тренирует направленное внимание.
             </p>
-          </div>
-        </article>
+          </article>
+        </section>
       </section>
       <section class="main__picture__section">
         <div class="main__card__title">

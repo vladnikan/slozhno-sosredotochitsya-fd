@@ -20,7 +20,7 @@
 
 .rec__element {
   color: var(--accent-color);
-  font-family: "IBM Plex mono";
+  font-family: var(--main-font);
   font-size: var(--main-font-size);
   position: absolute;
   top: 12px;
@@ -101,7 +101,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--links-border-color);
 }
 
 a:focus {
@@ -223,6 +223,7 @@ a:focus {
   position: relative;
   display: grid;
   margin-block-start: 40px;
+  block-size: 100vh;
   min-block-size: 668px;
   justify-content: center;
   align-content: center;
@@ -372,7 +373,6 @@ a:focus {
   }
 
   .main__section > .main__article__card:nth-of-type(3) > .article__content {
-    /* margin-inline-start: 20px; */
     margin-block-start: 10px;
     margin-block-end: 10px;
     max-width: 475px;
@@ -381,13 +381,7 @@ a:focus {
   .main__card__title {
     margin-block-start: 70px;
     margin-block-end: 20px;
-    /* margin-inline-start: 10px; */
   }
-
-  /* .main__picture__section {
-    margin-inline-start: 10px;
-    margin-inline-end: 10px;
-  } */
 
   .main__pictures {
     display: grid;
@@ -395,7 +389,7 @@ a:focus {
     grid-template-rows: repeat(4, 1fr);
     gap: 20px;
     grid-auto-flow: dense;
-    max-height: 825px;
+    /* max-height: 825px; */
   }
 
   .main__picture {
@@ -433,7 +427,8 @@ a:focus {
   }
 
   .footer {
-    min-block-size: 1000px;
+    max-block-size: 100vh;
+    min-block-size: 1024px;
     margin-block-start: 45px;
   }
 
@@ -567,7 +562,8 @@ a:focus {
     align-self: flex-end;
     margin-block-start: 275px;
     margin-inline-start: 10px;
-    min-height: 768px;
+    max-block-size: 100vh;
+    min-block-size: 768px;
   }
 
   .footer::before {
