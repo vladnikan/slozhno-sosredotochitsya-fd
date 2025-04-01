@@ -134,7 +134,7 @@ a:focus {
 }
 
 .main__article__card:not(:first-child) {
-  margin-block-start: 45px;
+  margin-block-start: 52px;
 }
 
 .main__article__card:first-child {
@@ -181,7 +181,7 @@ a:focus {
 }
 
 .article__question__title {
-  color: var(--accent-description-color);
+  color: var(--accent-quetstion-title-color);
   font-family: var(--main-font);
   font-weight: bold;
   margin-block-end: 20px;
@@ -265,7 +265,8 @@ a:focus {
   }
 
   .header__theme-menu-list {
-    margin-inline-end: 0;
+    margin-inline-end: 3px;
+    margin-block-end: 5px;
   }
 
   .rec__element {
@@ -317,7 +318,11 @@ a:focus {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
-    margin-top: 20px;
+  }
+
+  .main__article__card:not(:first-child) {
+    margin-block-start: 52px;
+    margin-block-end: -10px;
   }
 
   .article__content {
@@ -350,7 +355,7 @@ a:focus {
   .article__medium__card .article__question__title {
     max-inline-size: 236px;
     margin-block-start: 0;
-    padding-block-start: 35px;
+    padding-block-start: 30px;
   }
 
   .article__medium__card .article__description {
@@ -382,7 +387,7 @@ a:focus {
   } */
 
   .main__card__title {
-    margin-block-start: 80px;
+    margin-block-start: 90px;
     margin-block-end: 20px;
   }
 
@@ -433,7 +438,7 @@ a:focus {
   .footer {
     max-block-size: 100vh;
     min-block-size: 1024px;
-    margin-block-start: 205px;
+    margin-block-start: -20px;
     margin-inline-start: 15px;
   }
 
@@ -481,7 +486,7 @@ a:focus {
   }
 
   .main__article__card:first-child {
-    margin-block-start: 35px;
+    margin-block-start: 40px;
   }
 
   .main__description {
@@ -574,18 +579,18 @@ a:focus {
     display: grid;
     justify-self: center;
     align-self: flex-end;
-    margin-block-start: 450px;
+    margin-block-start: 170px;
     max-block-size: 100vh;
     min-block-size: 768px;
   }
 
   .footer::before {
     right: -260px;
-    top: 25px;
+    top: 75px;
   }
 
   .footer::after {
-    bottom: 15px;
+    bottom: 70px;
     left: -270px;
   }
 }

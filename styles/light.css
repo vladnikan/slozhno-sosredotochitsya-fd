@@ -6,7 +6,9 @@
 
 :root.theme-light {
   --accent-title-color: #FFC2E6;
+  --accent-quetstion-title-color: #353430;
   --accent-color: #FF8DCB;
+  --accent-title-color: #353430;
   --accent-description-color: #353430;
   --section-description-color: #353430;
   --border-color: #353430;
@@ -24,6 +26,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --accent-title-color: #FFC2E6;
+    --accent-quetstion-title-color: #353430;
     --accent-color: #FF8DCB;
     --accent-description-color: #353430;
     --section-description-color: #353430;

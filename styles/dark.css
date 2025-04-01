@@ -6,6 +6,7 @@
 
 :root.theme-dark {
   --accent-title-color: #DB00FF;
+  --accent-quetstion-title-color: #FF0070;
   --accent-color: #FF0070;
   --accent-description-color: #000028;
   --section-description-color: #F1B2CE;
