@@ -445,7 +445,6 @@ a:focus {
   }
 
   .main__picture {
-    inline-size: inherit;
     display: flex;
     inline-size: 100%;
     block-size: 100%;
