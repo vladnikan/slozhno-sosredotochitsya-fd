@@ -83,6 +83,11 @@
   border-bottom: 1px solid var(--border-color);
 }
 
+.header__theme-menu-button_active:disabled {
+  border: 1px solid var(--border-color);
+  pointer-events: none;
+}
+
 /* .theme-input {
   display: none;
 }
