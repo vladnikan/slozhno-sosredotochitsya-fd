@@ -10,6 +10,7 @@
   --accent-color: #FF8DCB;
   --accent-title-color: #FFC2E6;
   --accent-description-color: #353430;
+  --button-color: #353430;
   --section-description-color: #353430;
   --border-color: #353430;
   --background-image: url("../images/cover-image-light.png");
@@ -17,6 +18,7 @@
   --underline-color: #353430;
   --hover-border-color: rgba(50, 49, 45, 0.4);
   --background-color: white;
+  --links-border-color: #353430;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
@@ -29,6 +31,7 @@
     --accent-quetstion-title-color: #353430;
     --accent-color: #FF8DCB;
     --accent-description-color: #353430;
+    --button-color: #353430;
     --section-description-color: #353430;
     --border-color: #353430;
     --background-image: url("../images/cover-image-light.png");
@@ -36,6 +39,7 @@
     --underline-color: #353430;
     --hover-border-color: rgba(50, 49, 45, 0.4);
     --background-color: white;
+    --links-border-color: #353430;
   }
 }
 
